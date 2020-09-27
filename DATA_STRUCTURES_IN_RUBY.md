@@ -59,6 +59,7 @@ end
 root.nil? 
 root val == target == root
 
+```
 def dfs ( root, target ) 
     return nil if root is nil
     return root if root.val == target
@@ -68,4 +69,5 @@ def dfs ( root, target )
     end
     nil
 end
+```
 
