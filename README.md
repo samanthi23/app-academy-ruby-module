@@ -173,6 +173,7 @@ DATA STRUCTURES:
 
 #BFS 
 
+```
 queue = [ root ]
 until queue.empty?
     el = queue.shift
@@ -180,10 +181,11 @@ until queue.empty?
     el.children.each { |child | 
     queue << child }
 end
+```
 
 #DFS ( Depth First Search ) # uses a stack
 
-
+```
 def dfs ( root, target )
     return nil if root is nil 
     return root if root.val == target
@@ -194,6 +196,7 @@ def dfs ( root, target )
     nil
 
 end
+```
 
 base case:  
 
@@ -205,7 +208,7 @@ root.val == target # root
 # person is on the left side
 
 
-
+```
 def dfs ( root, target )
     return nil if root is nil 
     return root if root.val == target
@@ -215,3 +218,4 @@ def dfs ( root, target )
     end
     nil
 end
+```
