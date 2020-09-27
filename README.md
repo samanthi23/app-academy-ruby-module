@@ -213,9 +213,10 @@ def dfs ( root, target )
     return nil if root is nil 
     return root if root.val == target
     root.children.each do | child | 
-        search_result = dfs ( child, target )
+        search_result = dfs ( child, target ) # a node with the value three
         return search_result unless search_result.nil?
     end
     nil
 end
 ```
+
