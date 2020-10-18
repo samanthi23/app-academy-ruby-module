@@ -71,3 +71,13 @@ def dfs ( root, target )
 end
 ```
 
+LIFO ( last-in-first-out )
+1 2 3 4 5
+
+( pop ), ( stack )
+
+3.
+DFS
+"find value 6 in the graph above"
+4 3 7 8 6 === 9? 5 1
+
