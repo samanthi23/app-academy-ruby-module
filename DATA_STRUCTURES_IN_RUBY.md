@@ -79,5 +79,6 @@ LIFO ( last-in-first-out )
 3.
 DFS
 "find value 6 in the graph above"
-4 3 7 8 6 === 9? 5 1
+"really aggresively go to the leaves"
+4, 5, 2, 6, 7, 3, 1
 
