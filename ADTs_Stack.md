@@ -43,6 +43,11 @@ my_map = [[k1,v1], [k2,v2], [k3, v2], ...]
 
 Exercise 3 - Map
 
+So set is unique keys ?
+set - 
+include?# true or false unique keys ? 
+<< # push to stack
+delete # ?
 
 ```
 class Map
