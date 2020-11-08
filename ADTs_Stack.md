@@ -44,12 +44,28 @@ my_map = [[k1,v1], [k2,v2], [k3, v2], ...]
 Exercise 3 - Map
 
 So set is unique keys ?
+
+
 set - 
-include?# true or false unique keys ? 
-<< # push to stack
-delete # ?
+```
+
+include?
+
+<< 
+
+delete 
 
 ```
+
+instead of using an Array I can use a hashmap
+set key is 3 and => rocket to true
+``` 
+{ 3 => true } 
+
+```
+
+vocabulary : hashmap. no longer need to delete in a hashmap beaause a set is unique only so 
+
 class Map
 
   def set(key, value) 
