@@ -32,3 +32,30 @@ a hashmap is just a Set (unique keys ) of key value pairs, keys are unique, also
 
 =end
 ```
+
+hello maps to world: 
+
+```
+["hello", "world" ]
+
+```
+
+and then I want to map 2 to 4:
+nest key-value pairs together in tuples # MIT vocabulary word
+
+```
+[["hello", "world"], [2,4]]
+```
+
+this is implementing
+
+``` 
+hello => world
+2 => 4
+
+```
+
+don't want to add a key-value pair I just want to add
+
+
+
