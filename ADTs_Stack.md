@@ -49,23 +49,31 @@ So set is unique keys ?
 set - 
 ```
 
-include?
+include? # check if it's in the set, check for inclusion
 
-<< 
+<< #push things into it 
 
-delete 
+delete # and delete from them
+
+implement them with an Array
 
 ```
 
 instead of using an Array I can use a hashmap
 set key is 3 and => rocket to true
+push 3 into Array
+this Array can implement a Set is Unique, Abstract Data Type === ADT
+public methods:
 ``` 
 { 3 => true } 
+{ "hello" => true }
 
 ```
 
-vocabulary : hashmap. no longer need to delete in a hashmap beaause a set is unique only so 
 
+vocabulary : hashmap. no longer need to delete in a hashmap because a set is unique only so 
+
+```
 class Map
 
   def set(key, value) 
