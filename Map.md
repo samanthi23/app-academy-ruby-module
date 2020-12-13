@@ -57,5 +57,4 @@ hello => world
 
 don't want to add a key-value pair I just want to add
 
-
-
+a map have the following instance methods: set(key, value), get(key), delete(key), show
