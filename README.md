@@ -163,3 +163,8 @@ psql postgres
 Happy coding! 
 
 AWS EC2 instance !!# App Academy Homeworks
+
+```
+# use as h1 heading 1 ( # space ) // notice the space between # and space 
+
+```
