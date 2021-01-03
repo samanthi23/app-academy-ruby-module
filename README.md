@@ -166,5 +166,19 @@ AWS EC2 instance !!# App Academy Homeworks
 
 ```
 # use as h1 heading 1 ( # space ) // notice the space between # and space 
+1. ( press enter )
+2.
+3.
+4.
+
+```
+
+```
+## use as h2 heading 2 ( ## space )
+1.
+2.
+3.
+4.
+5.
 
 ```
