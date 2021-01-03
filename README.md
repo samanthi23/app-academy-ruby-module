@@ -182,3 +182,16 @@ AWS EC2 instance !!# App Academy Homeworks
 5.
 
 ```
+
+## for multiple comments lines
+don't have to 
+worry about 
+that 
+
+### git status 
+
+in more than one repo or directories use git status
+
+```
+git status
+```

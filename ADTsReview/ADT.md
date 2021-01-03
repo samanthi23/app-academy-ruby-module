@@ -26,6 +26,8 @@ delete
 be careful of is that don't include duplicates iterate then make sure that thing is not included in the set
 use 
 
+### in a Hashmap just check for inclusion no need to iterate over everything
+
 # Map.rb
 ```
     def get(key)
@@ -73,3 +75,30 @@ end
 ```
 
 underlying_array.each { | element | returns element[value] if [element][0] == key
+
+# Set 
+this array implements an Abstract Data Type : "Set"
+
+instead of using an Array I can use a hashmap, Hashmap or dictionary
+with values set to true 
+
+```
+[ 3 => "true" ]
+[ "hello" => "true" ]
+```
+
+## Hashmap
+
+don't have to worry about duplicates because the Hashmap 
+already takes care of that
+
+```
+[ 3 => "true" ]
+[ "hello" => "true" ]
+```
+
+
+
+
+
+
