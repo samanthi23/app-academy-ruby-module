@@ -82,3 +82,8 @@ DFS
 "really aggresively go to the leaves"
 4, 5, 2, 6, 7, 3, 1
 
+
+
+## if you only do these two operations then it is a queue
+1. push / pop
+2. unshift / shift
