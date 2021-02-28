@@ -195,3 +195,7 @@ in more than one repo or directories use git status
 ```
 git status
 ```
+
+### remove .c9 files .gitignore
+
+``` git rm --cached .c9/ -r ```
