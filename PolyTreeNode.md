@@ -123,8 +123,16 @@ children are an empty array [] if root nil
 
 then whole thing should return nil if nothing
 
+# parent= 
 
+1. setter, sets the parent property
+2. defining a setter method inside the class allows it to be set otuside the class
+```
+def name=(name) #setter method
+    @name = name
+end
+```
 
-
-
-
+#### getters and setters web url:
+1. https://dev.to/k_penguin_sato/ruby-getters-and-setters-1p30
+2. 
