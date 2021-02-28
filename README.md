@@ -199,3 +199,7 @@ git status
 ### remove .c9 files .gitignore
 
 ``` git rm --cached .c9/ -r ```
+
+1. write this code ( above line ) down in green notebook
+
+
