@@ -196,3 +196,23 @@ first child is 4 so stack frame is 1, 2, 4.
 4 pops off stack and passes down nil to the 2
 
 2 goes down to 4 then it goes back up then it goes to 5 now ( 5 is 2's child )
+
+```
+class PolyTreeNode
+  # ...
+  # ...
+  def inspect
+    @value.inspect
+  end
+end
+```
+
+```
+class PolyTreeNode
+  # ...
+  # ...
+  def inspect
+    { 'value' => @value, 'parent_value' => @parent.value }.inspect
+  end
+end
+```
