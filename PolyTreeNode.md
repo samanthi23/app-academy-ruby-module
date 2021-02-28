@@ -171,7 +171,7 @@ a's parent is nil
 
 children of a is b, c, d or [b, c, d] array
 
-child is a node or |child| in .each 
+child is a node or |child| in root.children.each do |child| 
 
 current value is b node
 
@@ -179,4 +179,20 @@ b's children are []
 
 b's parent is a node
 
+## now think of it as a left sub-tree and a right sub-tree
 
+left tree is b, c
+
+right tree is d, d's child is e
+
+## draw stack frame or stack diagram
+
+a then b then c, left sub tree
+
+first child is 4 so stack frame is 1, 2, 4. 
+
+4.each.chidren will return a [] then the whole thing will return nil
+
+4 pops off stack and passes down nil to the 2
+
+2 goes down to 4 then it goes back up then it goes to 5 now ( 5 is 2's child )

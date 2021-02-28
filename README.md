@@ -200,5 +200,10 @@ git status
 
 ``` git rm --cached .c9/ -r ```
 
+# @value is an instance variable
+
+variables defined in method can now be used outside method and getters and setters 
+
+add @ before variable name
 
 
