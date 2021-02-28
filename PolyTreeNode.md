@@ -1,7 +1,7 @@
 ```
 class PolyTreeNode
    def initialize(value)
-   
+      @value = value # getter to get value outside of this class, instance variable
    end
    
 =begin
@@ -24,8 +24,9 @@ children = []
    end 
    
    def parent()
-       # returns nodes parent
-       parent = parent.first
+       # returns parent node
+       # parent = parent.first
+       @parent
    end
    
     

@@ -200,6 +200,5 @@ git status
 
 ``` git rm --cached .c9/ -r ```
 
-1. write this code ( above line ) down in green notebook
 
 
