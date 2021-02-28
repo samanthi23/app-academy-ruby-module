@@ -133,6 +133,50 @@ def name=(name) #setter method
 end
 ```
 
-#### getters and setters web url:
-1. https://dev.to/k_penguin_sato/ruby-getters-and-setters-1p30
-2. 
+#### getters and setters:
+1. sets the parents property
+
+##### setter method
+
+```
+def name=(name) #setter method
+    @name = name
+end
+```
+
+```
+def parent=(value)
+    @parent = value
+end
+```
+
+2. adds the node to their parent's array of children
+3. unless setting the parent to nil
+
+# notes
+
+PolyTree : 
+
+a, b, c, d, e
+
+# b node
+
+children of root node a is b, c, left subtree
+
+and d right sub tree
+
+value a
+
+a's parent is nil
+
+children of a is b, c, d or [b, c, d] array
+
+child is a node or |child| in .each 
+
+current value is b node
+
+b's children are []
+
+b's parent is a node
+
+
