@@ -221,7 +221,7 @@ end
 
 use self method
 
-and .__children method
+and ._children method
 
 left sub - tree and right sub - tree
 
@@ -275,6 +275,37 @@ if self is a parent detach or delete self or delete node
 4.  adds node to their parent's array of children ( unless we're setting parent to nil )
 
 5. return self or node 
+
+# parent=(parent)
+
+parent=(parent) not parent=(value)
+
+write a parent= method that sets the parent property
+
+parent=(parent)
+
+# @children.dup
+
+copy an Object in Ruby
+
+Duplicate
+
+shallow copy
+
+could also use ```deep_dup``` method for non-shallow copy
+
+@children.dup
+
+# def _children
+
+```
+protected # to give node direct access to another node's children
+    
+
+def _children
+   @children
+end
+```
 
 
 
