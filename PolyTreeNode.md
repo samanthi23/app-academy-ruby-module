@@ -242,5 +242,39 @@ coffee
 # main
 ```
 
-## .__children
+```
+class Salad
+  def initialize
+    @ingredients = []
+  end
+  def add_nuts
+    @ingredients << :nuts
+    self
+  end
+end
+my_salad = Salad.new.add_nuts
+```
+
+## ._children
+
+self.parent._chidren << self unless self.parent.nil?
+
+variables can be _ underscore
+
+
+# pseudo-code
+
+1. check if parent nil if so no tree so return
+
+2. detach from current parent
+
+if self is a parent detach or delete self or delete node
+
+3. set parent node to value passed in
+
+4.  adds node to their parent's array of children ( unless we're setting parent to nil )
+
+5. return self or node 
+
+
 
