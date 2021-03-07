@@ -126,7 +126,7 @@ then whole thing should return nil if nothing
 # parent= 
 
 1. setter, sets the parent property
-2. defining a setter method inside the class allows it to be set otuside the class
+2. defining a setter method inside the class allows it to be set outside the class
 ```
 def name=(name) #setter method
     @name = name
@@ -216,3 +216,31 @@ class PolyTreeNode
   end
 end
 ```
+
+# think of it as a Abstract Data Type
+
+use self method
+
+and .__children method
+
+left sub - tree and right sub - tree
+
+detach from current parent
+
+unless parent is nil node1.parent is 1
+
+## self in Ruby
+
+if parent node return then parent node is set
+
+```
+def coffee
+  puts self
+end
+
+coffee
+# main
+```
+
+## .__children
+
