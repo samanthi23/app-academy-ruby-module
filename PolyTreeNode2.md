@@ -44,5 +44,6 @@ stack frame: 1, 2, 4.
 
 4 has no children, so 4.children is an empty array []
 
+# if not found return nil
 
 
