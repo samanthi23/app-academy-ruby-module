@@ -127,6 +127,18 @@ else {
 
 this field is coming from the called Object
 
+comparing Objects so use ```.equals(item)``` method, ``` if(items[i].equals(item))```
 
+otherBag toArray() method returns a copy of the array and can use otherItems.length no nulls in toArray() method
 
+# DFS
+
+uses a stack
+
+## recursion
+
+take the original problem and reduce it to a problem of the same kind, **base case**
+# BFS
+
+uses a queue
 
