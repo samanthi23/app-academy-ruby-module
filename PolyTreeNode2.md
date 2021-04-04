@@ -36,3 +36,13 @@ fulfill all the promises of a PolyTreeNode
 
 or else no good the API that the PolyTreeNode is expecting
 
+# DFS
+
+stack frame 1, left child 2 is now root, 2, right child 4 is now root
+
+stack frame: 1, 2, 4.
+
+4 has no children, so 4.children is an empty array []
+
+
+
