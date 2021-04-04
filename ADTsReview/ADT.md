@@ -97,7 +97,35 @@ already takes care of that
 [ "hello" => "true" ]
 ```
 
+# return value is meant to check success or failure
 
+return true - success
+
+return false - failure, etc..
+
+if ```item == null``` disallow that don't want people to store a null value in ArrayBag ADT
+
+```throw new IllegalArgumentException()```
+
+this and item in stack frame ```b.add(message)```
+
+this, a copy of the reference
+
+now we have 3 references to the string, item, message, and items[0]
+
+# this
+
+```
+if (this.numItems == this.items.length)
+return false;
+else {
+ this.items[this.numItems] = item;
+ this.numItems++
+ return true;
+}
+```
+
+this field is coming from the called Object
 
 
 
